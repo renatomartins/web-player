@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <video id="player" height="0" width="0" autobuffer>
+      <source src="">
+    </video>
+
+    <table id="playlist" border="1" style="">
+      <tr>
+        <th>title</th>
+        <th>duration</th>
+      </tr>
+      <!-- drag & drop files to here -->
+    </table>
+
+    <button id="play">play</button>
+    <button id="pause">pause</button>
+    <button id="stop">stop</button>
+    <br>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+    <script type="text/javascript">
+    var player = document.getElementById('player')
+    document.getElementById('play').onclick = function(e) {
+      player.play()
+    }
+    document.getElementById('pause').onclick = function(e) {
+      player.pause()
+    }
+    document.getElementById('stop').onclick = function(e) {
+      player.pause()
+      player.currentTime = player.startTime
+    }
+    document.getElementById('volume').onchange = function(e) {
+      player.volume = e.target.value
+    }
+    </script>
+  </body>
+</html>
