@@ -1,7 +1,11 @@
 web-player
 ==========
 
-testing some html5 functionalities
+testing some html5 functionalities, coffeescript and less
+
+useful links:
+ - http://www.w3.org/TR/html5/media-elements.html
+ - ...
 
 TODO:
  - check html5 browser support (see http://diveintohtml5.info)
