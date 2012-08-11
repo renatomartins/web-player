@@ -1,7 +1,7 @@
 web-player
 ==========
 
-testing some html5 functionalities, coffeescript and less
+testing some html5 functionalities
 
 useful links:
  - http://www.w3.org/TR/html5/media-elements.html
