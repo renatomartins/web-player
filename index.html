@@ -21,21 +21,6 @@
     <br>
     <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
 
-    <script type="text/javascript">
-    var player = document.getElementById('player')
-    document.getElementById('play').onclick = function(e) {
-      player.play()
-    }
-    document.getElementById('pause').onclick = function(e) {
-      player.pause()
-    }
-    document.getElementById('stop').onclick = function(e) {
-      player.pause()
-      player.currentTime = player.startTime
-    }
-    document.getElementById('volume').onchange = function(e) {
-      player.volume = e.target.value
-    }
-    </script>
+    <script type="text/javascript" src="js/webplayer.js"></script>
   </body>
 </html>
