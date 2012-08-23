@@ -1,0 +1,6 @@
+[submodule "lib/bootstrap"]
+	path = lib/bootstrap
+	url = https://github.com/twitter/bootstrap.git
+[submodule "lib/backbone"]
+	path = lib/backbone
+	url = https://github.com/documentcloud/backbone.git
